@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo Class</title>
+    <link rel="stylesheet" href="navbar.css">
+    <style>
+        li:first-child{
+            color: tomato;
+        }
+        /* li:last-child{
+            color: tomato;
+            border: 5px solid turquoise;
+            padding: 10px;
+            display: inline-block;
+            display: inline;
+            margin-top: 10px;
+        } 
+        */
+
+        /* all information style */
+           /* li:nth-child(n){
+            color: tomato;
+            border: 5px solid turquoise;
+            padding: 10px;
+            margin-top: 10px;
+        } */
+
+            /* even odd style */
+            /* li:nth-child(2n){ */
+            /* li:nth-child(odd){ */
+            /* li:nth-child(2n+1){    
+            color: tomato;
+            border: 5px solid turquoise;
+            padding: 10px;
+            margin-top: 10px;
+        }  */
+
+        /* li:nth-child(5){    
+            color: tomato;
+            border: 5px solid turquoise;
+            padding: 10px;
+            margin-top: 10px;
+        }  */
+
+        button{
+            padding: 10px 30px;
+            background-color: violet;
+            border: none;
+            border-radius: 10px;
+            color: white;
+        }
+
+        /* hover apply code */
+        button:hover{
+            background-color: #254636;
+        }
+
+        li:hover{
+            color: teal;
+            font-size: 2px;
+        }
+        input{
+            margin-top: 20px;
+            padding: 5px;
+            border-radius: 7px;
+            border: 1px solid gray;
+            outline: none;
+        }
+        input:focus{
+            border:2px solid darkmagenta;
+            color: saddlebrown;
+        }
+        ::placeholder {
+        color: goldenrod;
+        }
+
+        /* a{
+            font-size: 3em;
+            text-decoration: none;
+        }  */
+        /* a:visited{
+            font-size: 3em;
+            color:blue;
+        } */
+        /* li::before{
+            content: "Hello";
+        }
+        li::after{
+            content: "Bangladesh";
+        } */
+    </style> 
+</head>
+<body>
+
+    <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="audio.html">Audio</a></li>
+          <li><a href="form.html">Form</a></li>
+          <li><a href="semantic.html">Semantic</a></li>
+          <li><a href="position.html">Position</a></li>
+          <li><a href="pseudo.html">Pseudo</a></li>
+          <li><a href="table.html">Table</a></li>
+        </ul>
+    </nav>
+
+
+    <ul>
+        <li>list-1</li>
+        <li>list-2</li>
+        <li>list-3</li>
+        <li>list-4</li>
+        <li>list-5</li>
+        <li>list-6</li>
+        <li>list-7</li>
+    </ul>
+    
+    <button>Hire Me</button>
+
+    <form action="">
+        <input type="text" placeholder="Enter your name">
+    </form>
+
+    <a href="https://google.com">Google</a>
+</body>
+</html>
